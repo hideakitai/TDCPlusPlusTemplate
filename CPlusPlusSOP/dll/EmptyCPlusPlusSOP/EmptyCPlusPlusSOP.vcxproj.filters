@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b1cb5544-1057-4565-8789-7e4ef5f51278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{61a6c578-e577-4055-840f-a020185940c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CPlusPlus_Common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_Extensions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SOP_CPlusPlusBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
